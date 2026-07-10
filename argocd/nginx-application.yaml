@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: apps/nginx
   destination:
-    server: https://kubernetes.default.svc
+    server: https://10.99.20.214:8006
     namespace: nginx
   syncPolicy:
     automated:
